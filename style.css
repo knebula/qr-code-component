@@ -5,18 +5,15 @@
   --Dark-blue: hsl(218, 44%, 22%);
 }
 
-img {
-  width: 100%;
-}
-
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "outfit", sans-serif;
+  font-family: "Outfit", sans-serif;
   font-size: 15px;
   margin: 0;
+  background-color: var(--Light-gray);
 }
 
 h2 {
@@ -25,9 +22,7 @@ h2 {
 }
 
 .container {
-  background-color: var(--Light-gray);
-  width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   padding: 1rem;
   display: flex;
   justify-content: center;
@@ -39,10 +34,11 @@ h2 {
   padding: 1rem;
   border-radius: 20px;
   text-align: center;
-  box-sizing: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
+  width: 100%;
   border-radius: 15px;
 }
 
